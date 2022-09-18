@@ -7,11 +7,18 @@
     <style>
         body {
             background-color: #1876FA;
-            font-family: 'Asterone';
+            font-family: asterone;
             font-weight: bold;
+            
         }
 
-    
+        @font-face {
+                font-family: 'Asterone DEMO Regular';
+                font-style: normal;
+                font-weight: bold;
+                src: local('Asterone DEMO Regular'), url('Asterone DEMO.woff') format('woff');
+                }
+        
         .title {
             width: 300px;
             height: 70px;  
@@ -36,6 +43,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            height: 100vh;
+            
         }
 
 
@@ -47,7 +56,8 @@
             font-size: 17px;
 
             color: black;
-            margin-bottom: 20px;
+            margin-top: -1px;
+            margin-bottom: 23px;
             display: flex;
             flex-direction: column;
             justify-content: center;
