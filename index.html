@@ -20,8 +20,8 @@
                 }
         
         .title {
-            width: 300px;
-            height: 70px;  
+            width: 590px;
+            height: 130px;  
 
             background-image: url('./TITLE.png');
             background-position: center;
@@ -29,16 +29,25 @@
         }
 
         .profile {
-            width: 280px;
-            height: 203px;
-            margin-top: 20px;
+            width: 600px;
+            height: 439px;
+            margin-top: 40px;
             background-image: url('./HMM1.png');
             background-position: center;
             background-size: cover;
         }
 
+        .profile:hover {
+            width: 600px;
+            height: 439px;
+            margin-top: 40px;
+            background-image: url('./HMM2.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+
         .wrap {
-            margin: 120px auto 0px auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -49,15 +58,15 @@
 
 
         .wrap > a {
-            width: 270px;
-            height: 60px;
+            width: 490px;
+            height: 130px;
             background-color: #FCDEEB;
-            border-radius: 50px;
-            font-size: 17px;
+            border-radius: 80px;
+            font-size: 34px;
 
             color: black;
-            margin-top: -1px;
-            margin-bottom: 23px;
+            margin-top: -3px;
+            margin-bottom: 55px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -70,25 +79,17 @@
             color: #FCDEEB;
         }
 
-        .profile:hover {
-            width: 280px;
-            height: 203px;
-            margin-top: 20px;
-            background-image: url('./HMM2.png');
-            background-position: center;
-            background-size: cover;
-        }
-
+       
 
         .bottom {
             display: flex;
             justify-content: center;
-            margin-top: 30px;
+            margin-top: 50px;
 
         }
         .bottom img {
-            width: 120px;
-            height: 25px;
+            width: 230px;
+            height: auto;
             background-position: center;
             background-size: cover;
         }
@@ -102,12 +103,12 @@
         <div class="profile" title="나는야 항해사 해뭉이"></div>
         <a target="_blank" href="https://blog.naver.com/onthethesea_" title="블로그">BLOG</a>
         <a target="_blank" href="https://grafolio.naver.com/onthethesea" title="그라폴리오">GRAFOLIO</a>
-      
+        <div class="bottom">
+            <a target="_blank" href="https://www.instagram.com/onthethe._.sea/" title="인스타">
+                 <img src="./insta.png">
+            </a>
+         </div>
     </div>
-    <div class="bottom">
-       <a target="_blank" href="https://www.instagram.com/onthethe._.sea/" title="인스타">
-            <img src="./insta.png">
-       </a>
-    </div>
+   
 </body>
 </html>
